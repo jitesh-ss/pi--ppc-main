@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "pi-ppc": {
+      "name": "pi-ppc",
+      "version": "0.1.0",
+      "dependencies": [],
+      "dependents": []
+    }
+  },
+  "lastUpdated": "2026-10-12T06:39:35.093Z"
+}

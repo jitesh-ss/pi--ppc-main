@@ -1,0 +1,32 @@
+{
+  "name": "pi-ppc",
+  "version": "0.1.0",
+  "description": "Persistent Project Context system for PI Coding Agent",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "pi": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli/index.ts",
+    "test": "vitest",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jitesh-ss/pi--ppc-main.git"
+  },
+  "author": "jitesh-ss",
+  "keywords": [
+    "project-context",
+    "agent-memory",
+    "coding-assistant"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  }
+}
